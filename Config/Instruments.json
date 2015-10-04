@@ -1,0 +1,132 @@
+{
+  "instrDict": {
+    "APS": {
+      "address": "A6001ixV", 
+      "channels": [
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGs"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGs"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGs"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGs"
+        }
+      ], 
+      "delay": 0.0, 
+      "enabled": true, 
+      "isMaster": true, 
+      "label": "APS", 
+      "miniLLRepeat": 0, 
+      "numChannels": 4, 
+      "samplingRate": 1200000000.0, 
+      "seqFile": "C:/Users/Caleb/Development/BBN/AWGS/JPM/JPM-APS.h5", 
+      "seqForce": true, 
+      "triggerInterval": 0.01, 
+      "triggerSource": "External", 
+      "x__class__": "APS", 
+      "x__module__": "instruments.AWGs"
+    }, 
+    "Attenuator": {
+      "address": "", 
+      "ch1Attenuation": 0.0, 
+      "ch2Attenuation": 0.0, 
+      "ch3Attenuation": 0.0, 
+      "enabled": false, 
+      "label": "Attenuator", 
+      "x__class__": "DigitalAttenuator", 
+      "x__module__": "instruments.Attenuators"
+    }, 
+    "JPMCounter": {
+      "address": "COM3", 
+      "enabled": true, 
+      "label": "JPMCounter", 
+      "reps": 1000, 
+      "x__class__": "Counter", 
+      "x__module__": "instruments.Counters"
+    }, 
+    "Labbrick": {
+      "address": "", 
+      "alc": false, 
+      "enabled": false, 
+      "frequency": 5.0, 
+      "gateBuffer": 2e-08, 
+      "gateDelay": -6e-08, 
+      "gateMinWidth": 1e-07, 
+      "label": "Labbrick", 
+      "mod": false, 
+      "output": false, 
+      "power": 0.0, 
+      "pulse": false, 
+      "pulseSource": "Internal", 
+      "refSource": "Internal", 
+      "x__class__": "Labbrick", 
+      "x__module__": "instruments.MicrowaveSources"
+    }, 
+    "MXG": {
+      "address": "30", 
+      "alc": false, 
+      "enabled": true, 
+      "frequency": 5.0, 
+      "gateBuffer": 2e-08, 
+      "gateDelay": -6e-08, 
+      "gateMinWidth": 1e-07, 
+      "label": "MXG", 
+      "mod": false, 
+      "output": true, 
+      "power": 0.0, 
+      "pulse": false, 
+      "pulseSource": "Internal", 
+      "x__class__": "AgilentN5183A", 
+      "x__module__": "instruments.MicrowaveSources"
+    }, 
+    "Scope": {
+      "acquireMode": "digitizer", 
+      "address": "1", 
+      "bandwidth": "20MHz", 
+      "clockType": "ref", 
+      "delay": 0.0, 
+      "enabled": false, 
+      "label": "Scope", 
+      "nbrRoundRobins": 1, 
+      "nbrSegments": 1, 
+      "nbrWaveforms": 1, 
+      "recordLength": 1024, 
+      "samplingRate": 100000000.0, 
+      "triggerCoupling": "AC", 
+      "triggerLevel": 0.0, 
+      "triggerSlope": "rising", 
+      "triggerSource": "A", 
+      "verticalCoupling": "AC", 
+      "verticalOffset": 0.0, 
+      "verticalScale": 1.0, 
+      "x__class__": "AgilentAP240", 
+      "x__module__": "instruments.Digitizers"
+    }
+  }, 
+  "x__class__": "InstrumentLibrary", 
+  "x__module__": "instruments.InstrumentManager"
+}

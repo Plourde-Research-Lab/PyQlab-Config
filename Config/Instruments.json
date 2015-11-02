@@ -61,10 +61,11 @@
       "x__module__": "instruments.Attenuators"
     }, 
     "JPMCounter": {
-      "address": "COM3", 
+      "address": "COM6", 
       "enabled": true, 
       "label": "JPMCounter", 
-      "reps": 1000, 
+      "repititions": 100, 
+      "segments": 11, 
       "x__class__": "Counter", 
       "x__module__": "instruments.Counters"
     }, 
@@ -89,7 +90,7 @@
     "MXG": {
       "address": "30", 
       "alc": false, 
-      "enabled": true, 
+      "enabled": false, 
       "frequency": 5.0, 
       "gateBuffer": 2e-08, 
       "gateDelay": -6e-08, 

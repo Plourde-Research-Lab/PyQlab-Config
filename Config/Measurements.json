@@ -7,9 +7,10 @@
       "label": "Counter", 
       "plotMode": "normal", 
       "recordsFilePath": "", 
-      "repititions": 1000, 
+      "repititions": 100, 
       "saveRecords": false, 
       "saved": true, 
+      "segments": 11, 
       "x__class__": "CounterStream", 
       "x__module__": "MeasFilters"
     }, 

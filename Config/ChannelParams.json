@@ -68,9 +68,26 @@
       "x__class__": "PhysicalMarkerChannel", 
       "x__module__": "QGL.Channels"
     }, 
+    "M-jpm1": {
+      "enabled": true, 
+      "gateChan": "MTrig", 
+      "label": "M-jpm1", 
+      "physChan": "APS-12", 
+      "pulseParams": {
+        "amp": 1.0, 
+        "buffer": 0.0, 
+        "cutoff": 2, 
+        "frequency": 5000000.0, 
+        "length": 2e-07, 
+        "shapeFun": "autodyne", 
+        "sigma": 1e-09
+      }, 
+      "x__class__": "JPMMeasurement", 
+      "x__module__": "QGL.JPMChannels"
+    }, 
     "M-q1": {
-      "autodyneFreq": -19000000.0, 
-      "enabled": false, 
+      "autodyneFreq": 19000000.0, 
+      "enabled": true, 
       "gateChan": "MTrig", 
       "label": "M-q1", 
       "measType": "autodyne", 
@@ -87,9 +104,9 @@
       "x__module__": "QGL.Channels"
     }, 
     "MTrig": {
-      "enabled": false, 
+      "enabled": true, 
       "label": "MTrig", 
-      "physChan": "APS-2m1", 
+      "physChan": "APS-1m1", 
       "pulseParams": {
         "length": 1e-07, 
         "shapeFun": "square"
@@ -128,7 +145,7 @@
     "jpmTrig": {
       "enabled": true, 
       "label": "jpmTrig", 
-      "physChan": "APS-3m1", 
+      "physChan": "APS-2m1", 
       "pulseParams": {
         "length": 1e-07, 
         "shapeFun": "square"
@@ -137,7 +154,7 @@
       "x__module__": "QGL.Channels"
     }, 
     "q1": {
-      "enabled": true, 
+      "enabled": false, 
       "gateChan": "q1Trig", 
       "label": "q1", 
       "physChan": "APS-12", 
@@ -155,9 +172,9 @@
       "x__module__": "QGL.Channels"
     }, 
     "q1Trig": {
-      "enabled": true, 
+      "enabled": false, 
       "label": "q1Trig", 
-      "physChan": "APS-4m1", 
+      "physChan": "APS-3m1", 
       "pulseParams": {
         "length": 1e-07, 
         "shapeFun": "square"
@@ -168,7 +185,7 @@
     "slaveTrig": {
       "enabled": true, 
       "label": "slaveTrig", 
-      "physChan": "APS-1m1", 
+      "physChan": "APS-4m1", 
       "pulseParams": {
         "length": 1e-07, 
         "shapeFun": "square"

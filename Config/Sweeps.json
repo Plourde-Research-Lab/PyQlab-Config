@@ -101,7 +101,7 @@
       "axisLabel": "Repeats", 
       "enabled": true, 
       "label": "Repeat", 
-      "numRepeats": 10, 
+      "numRepeats": 1000, 
       "order": 1, 
       "x__class__": "Repeat", 
       "x__module__": "Sweeps"
@@ -123,17 +123,17 @@
       "axisLabel": "Time", 
       "enabled": true, 
       "label": "Segments", 
-      "numPoints": 101, 
+      "numPoints": 11, 
       "order": 1, 
       "start": 0.0, 
       "step": 10.0, 
-      "stop": 1000.0, 
+      "stop": 100.0, 
       "x__class__": "SegmentNum", 
       "x__module__": "Sweeps"
     }
   }, 
   "sweepOrder": [
-    "Frequency"
+    "Segments"
   ], 
   "x__class__": "SweepLibrary", 
   "x__module__": "Sweeps"

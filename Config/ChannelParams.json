@@ -7,7 +7,7 @@
       "SSBFreq": -19000000.0, 
       "ampFactor": 1.0, 
       "delay": 0.0, 
-      "enabled": true, 
+      "enabled": false, 
       "generator": "MXG", 
       "label": "APS-12", 
       "phaseSkew": 0.0, 
@@ -39,12 +39,12 @@
       "IChannel": "", 
       "QChannel": "", 
       "SSBFreq": 0.0, 
-      "ampFactor": 1.0, 
+      "ampFactor": 0.65, 
       "delay": 0.0, 
       "enabled": true, 
       "generator": "Labbrick", 
       "label": "APS-34", 
-      "phaseSkew": 0.0, 
+      "phaseSkew": -30.0, 
       "x__class__": "PhysicalQuadratureChannel", 
       "x__module__": "QGL.Channels"
     }, 
@@ -69,7 +69,7 @@
       "x__module__": "QGL.Channels"
     }, 
     "M-jpm1": {
-      "enabled": true, 
+      "enabled": false, 
       "gateChan": "MTrig", 
       "label": "M-jpm1", 
       "physChan": "APS-12", 
@@ -91,7 +91,7 @@
       "gateChan": "MTrig", 
       "label": "M-q1", 
       "measType": "autodyne", 
-      "physChan": "APS-12", 
+      "physChan": "APS-34", 
       "pulseParams": {
         "amp": 1.0, 
         "buffer": 0.0, 
@@ -126,7 +126,7 @@
       "x__module__": "QGL.Channels"
     }, 
     "jpm1": {
-      "enabled": true, 
+      "enabled": false, 
       "gateChan": "jpmTrig", 
       "label": "jpm1", 
       "physChan": "APS-34", 
@@ -143,7 +143,7 @@
       "x__module__": "QGL.JPMChannels"
     }, 
     "jpmTrig": {
-      "enabled": true, 
+      "enabled": false, 
       "label": "jpmTrig", 
       "physChan": "APS-2m1", 
       "pulseParams": {
@@ -183,7 +183,7 @@
       "x__module__": "QGL.Channels"
     }, 
     "slaveTrig": {
-      "enabled": true, 
+      "enabled": false, 
       "label": "slaveTrig", 
       "physChan": "APS-4m1", 
       "pulseParams": {

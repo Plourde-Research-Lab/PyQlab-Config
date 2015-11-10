@@ -7,7 +7,7 @@
       "label": "Counter", 
       "plotMode": "normal", 
       "recordsFilePath": "", 
-      "repititions": 100, 
+      "repititions": 5, 
       "saveRecords": false, 
       "saved": true, 
       "segments": 11, 

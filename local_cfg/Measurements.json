@@ -1,0 +1,26 @@
+{
+  "filterDict": {
+    "M1": {
+      "IFfreq": 10000000.0, 
+      "bandwidth": 5000000.0, 
+      "boxCarStart": 0, 
+      "boxCarStop": 0, 
+      "channel": 1, 
+      "childFilter": "", 
+      "dependent": false, 
+      "enabled": true, 
+      "filterFilePath": "", 
+      "label": "M1", 
+      "phase": 0.0, 
+      "plotMode": "amp/phase", 
+      "plotScope": false, 
+      "recordsFilePath": "", 
+      "samplingRate": 250000000.0, 
+      "saveRecords": false, 
+      "x__class__": "DigitalHomodyne", 
+      "x__module__": "MeasFilters"
+    }
+  }, 
+  "x__class__": "MeasFilterLibrary", 
+  "x__module__": "MeasFilters"
+}

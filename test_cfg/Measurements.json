@@ -1,0 +1,50 @@
+{
+  "filterDict": {
+    "Demod": {
+      "IFfreq": 11000000.0, 
+      "bandwidth": 7000000.0, 
+      "dataSource": "Raw", 
+      "decimFactor1": 4, 
+      "decimFactor2": 1, 
+      "decimFactor3": 1, 
+      "enabled": true, 
+      "label": "Demod", 
+      "phase": 0.027415567780803774, 
+      "plotMode": "quad", 
+      "plotScope": true, 
+      "recordsFilePath": "", 
+      "samplingRate": 1000000000.0, 
+      "saveRecords": false, 
+      "saved": true, 
+      "x__class__": "DigitalDemod", 
+      "x__module__": "MeasFilters"
+    }, 
+    "KernelIntegrator": {
+      "bias": 0.0, 
+      "dataSource": "Demod", 
+      "enabled": true, 
+      "kernel": "np.ones(1024, dtype=np.complex128)", 
+      "label": "KernelIntegrator", 
+      "plotMode": "quad", 
+      "plotScope": true, 
+      "saved": true, 
+      "x__class__": "KernelIntegration", 
+      "x__module__": "MeasFilters"
+    }, 
+    "Raw": {
+      "channel": "1", 
+      "dataSource": "Scope", 
+      "enabled": true, 
+      "label": "Raw", 
+      "plotMode": "quad", 
+      "plotScope": true, 
+      "recordsFilePath": "", 
+      "saveRecords": false, 
+      "saved": true, 
+      "x__class__": "RawStream", 
+      "x__module__": "MeasFilters"
+    }
+  }, 
+  "x__class__": "MeasFilterLibrary", 
+  "x__module__": "MeasFilters"
+}

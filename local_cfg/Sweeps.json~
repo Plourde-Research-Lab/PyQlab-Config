@@ -1,0 +1,36 @@
+{
+  "sweepDict": {
+    "Frequency": {
+      "axisLabel": "Frequency", 
+      "enabled": true, 
+      "instr": "Labbrick", 
+      "label": "Frequency", 
+      "numPoints": 1001, 
+      "order": 1, 
+      "start": 4.0, 
+      "step": 0.001, 
+      "stop": 5.0, 
+      "x__class__": "Frequency", 
+      "x__module__": "Sweeps"
+    }, 
+    "Segments": {
+      "axisLabel": "Segment Num", 
+      "enabled": true, 
+      "instr": "BBNAPS1", 
+      "label": "Segments", 
+      "numPoints": 1001, 
+      "order": 1, 
+      "start": 4.0, 
+      "step": 0.001, 
+      "stop": 5.0, 
+      "x__class__": "Segments", 
+      "x__module__": "Sweeps"
+    }
+
+  }, 
+  "sweepOrder": [
+    "Frequency"
+  ], 
+  "x__class__": "SweepLibrary", 
+  "x__module__": "Sweeps"
+}

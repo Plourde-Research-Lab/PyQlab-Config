@@ -1,15 +1,15 @@
 {
   "filterDict": {
-    "Demod": {
+    "M1_DigitalDemod": {
       "IFfreq": 11000000.0, 
       "bandwidth": 7000000.0, 
-      "dataSource": "Raw", 
+      "dataSource": "M1_raw", 
       "decimFactor1": 4, 
       "decimFactor2": 1, 
       "decimFactor3": 1, 
       "enabled": true, 
-      "label": "Demod", 
-      "phase": 0.027415567780803774, 
+      "label": "M1_DigitalDemod", 
+      "phase": 1.5707963267948966, 
       "plotMode": "quad", 
       "plotScope": true, 
       "recordsFilePath": "", 
@@ -19,23 +19,28 @@
       "x__class__": "DigitalDemod", 
       "x__module__": "MeasFilters"
     }, 
-    "KernelIntegrator": {
+    "M1_KernelIntegrator": {
+      "IFfreq": 10000000.0, 
       "bias": 0.0, 
-      "dataSource": "Demod", 
+      "boxCarStart": 300, 
+      "boxCarStop": 1024, 
+      "dataSource": "M1_DigitalDemod", 
       "enabled": true, 
       "kernel": "np.ones(1024, dtype=np.complex128)", 
-      "label": "KernelIntegrator", 
+      "label": "M1_KernelIntegrator", 
       "plotMode": "quad", 
       "plotScope": true, 
+      "samplingRate": 1000000000.0, 
       "saved": true, 
+      "simpleKernel": false, 
       "x__class__": "KernelIntegration", 
       "x__module__": "MeasFilters"
     }, 
-    "Raw": {
-      "channel": "1", 
+    "M1_raw": {
+      "channel": "2", 
       "dataSource": "Scope", 
       "enabled": true, 
-      "label": "Raw", 
+      "label": "M1_raw", 
       "plotMode": "quad", 
       "plotScope": true, 
       "recordsFilePath": "", 
@@ -45,6 +50,7 @@
       "x__module__": "MeasFilters"
     }
   }, 
+  "version": 1, 
   "x__class__": "MeasFilterLibrary", 
   "x__module__": "MeasFilters"
 }

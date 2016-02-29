@@ -1,7 +1,7 @@
 {
 	"InstrParams": {
 		"SpectrumAnalyzer": {
-			"LOsource": "Labbrick",
+			"LOsource": "HMCT2100",
 			"span": 1000000,
 			"resolution_bw": 100000,
 			"sweep_points": 600,

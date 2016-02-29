@@ -9,7 +9,23 @@
           "label": "", 
           "offset": 0.0, 
           "x__class__": "AWGChannel", 
-          "x__module__": "instruments.AWGs"
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 0.171, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 0.557, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
         }, 
         {
           "amplitude": 1.0, 
@@ -17,23 +33,7 @@
           "label": "", 
           "offset": 0.0, 
           "x__class__": "AWGChannel", 
-          "x__module__": "instruments.AWGs"
-        }, 
-        {
-          "amplitude": 0.5, 
-          "enabled": true, 
-          "label": "", 
-          "offset": 0.0168, 
-          "x__class__": "AWGChannel", 
-          "x__module__": "instruments.AWGs"
-        }, 
-        {
-          "amplitude": 0.5, 
-          "enabled": true, 
-          "label": "", 
-          "offset": -0.0014, 
-          "x__class__": "AWGChannel", 
-          "x__module__": "instruments.AWGs"
+          "x__module__": "instruments.AWGBase"
         }
       ], 
       "delay": 0.0, 
@@ -43,15 +43,98 @@
       "miniLLRepeat": 0, 
       "numChannels": 4, 
       "samplingRate": 1200000000.0, 
-      "seqFile": "C:/Users/Caleb/Development/BBN/AWGS/Cav/Cav-APS.h5", 
+      "seqFile": "C:/Users/Caleb/Development/BBN/AWG/Bias/both-APS.h5", 
       "seqForce": true, 
       "triggerInterval": 0.01, 
-      "triggerSource": "Internal", 
+      "triggerSource": "External", 
       "x__class__": "APS", 
-      "x__module__": "instruments.AWGs"
+      "x__module__": "instruments.drivers.APS"
+    }, 
+    "APS21": {
+      "address": "", 
+      "channels": [
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }
+      ], 
+      "delay": 0.0, 
+      "enabled": false, 
+      "isMaster": false, 
+      "label": "APS21", 
+      "numChannels": 2, 
+      "samplingRate": 1200000000.0, 
+      "seqFile": "", 
+      "seqForce": true, 
+      "triggerInterval": 0.0001, 
+      "triggerSource": "Internal", 
+      "x__class__": "APS2", 
+      "x__module__": "instruments.drivers.APS2"
+    }, 
+    "APSB": {
+      "address": "A6001nBT", 
+      "channels": [
+        {
+          "amplitude": 0.5, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 0.5, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0122, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0156, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }
+      ], 
+      "delay": 0.0, 
+      "enabled": false, 
+      "isMaster": false, 
+      "label": "APSB", 
+      "miniLLRepeat": 0, 
+      "numChannels": 4, 
+      "samplingRate": 1200000000.0, 
+      "seqFile": "C:/Users/Caleb/Development/BBN/AWG/Cav/het-APSB.h5", 
+      "seqForce": true, 
+      "triggerInterval": 0.0001, 
+      "triggerSource": "External", 
+      "x__class__": "APS", 
+      "x__module__": "instruments.drivers.APS"
     }, 
     "Attenuator": {
-      "address": "COM10", 
+      "address": "COM7", 
       "ch1Attenuation": 0.0, 
       "ch2Attenuation": 0.0, 
       "ch3Attenuation": 0.0, 
@@ -60,12 +143,30 @@
       "x__class__": "DigitalAttenuator", 
       "x__module__": "instruments.Attenuators"
     }, 
+    "HMCT2100": {
+      "address": "18", 
+      "alc": false, 
+      "enabled": false, 
+      "frequency": 5.0, 
+      "gateBuffer": 2e-08, 
+      "gateDelay": -6e-08, 
+      "gateMinWidth": 1e-07, 
+      "label": "HMCT2100", 
+      "mod": false, 
+      "output": true, 
+      "power": -20.0, 
+      "pulse": false, 
+      "pulseSource": "Internal", 
+      "refSource": "External", 
+      "x__class__": "HittiteHMCT2100", 
+      "x__module__": "instruments.MicrowaveSources"
+    }, 
     "JPMCounter": {
-      "address": "COM6", 
+      "address": "COM5", 
       "enabled": true, 
       "label": "JPMCounter", 
-      "repititions": 5, 
-      "segments": 11, 
+      "repititions": 1000, 
+      "segments": 1, 
       "x__class__": "Counter", 
       "x__module__": "instruments.Counters"
     }, 
@@ -79,7 +180,7 @@
       "gateMinWidth": 1e-07, 
       "label": "Labbrick", 
       "mod": false, 
-      "output": true, 
+      "output": false, 
       "power": 0.0, 
       "pulse": false, 
       "pulseSource": "Internal", 
@@ -98,7 +199,7 @@
       "label": "MXG", 
       "mod": false, 
       "output": true, 
-      "power": 13.0, 
+      "power": -20.0, 
       "pulse": false, 
       "pulseSource": "Internal", 
       "x__class__": "AgilentN5183A", 
@@ -123,26 +224,49 @@
       "x__module__": "instruments.MicrowaveSources"
     }, 
     "Scope": {
-      "acquireMode": "digitizer", 
+      "acquireMode": "averager", 
       "address": "1", 
-      "bandwidth": "20MHz", 
+      "bandwidth": "Full", 
       "clockType": "ref", 
       "delay": 0.0, 
       "enabled": false, 
       "label": "Scope", 
-      "nbrRoundRobins": 1, 
+      "nbrRoundRobins": 1000, 
       "nbrSegments": 1, 
       "nbrWaveforms": 1, 
-      "recordLength": 1024, 
-      "samplingRate": 100000000.0, 
-      "triggerCoupling": "AC", 
-      "triggerLevel": 0.0, 
+      "recordLength": 4096, 
+      "samplingRate": 1000000000.0, 
+      "triggerCoupling": "DC", 
+      "triggerLevel": 0.5, 
       "triggerSlope": "rising", 
-      "triggerSource": "A", 
+      "triggerSource": "Ext", 
       "verticalCoupling": "AC", 
       "verticalOffset": 0.0, 
       "verticalScale": 1.0, 
       "x__class__": "AgilentAP240", 
+      "x__module__": "instruments.Digitizers"
+    }, 
+    "Scope2": {
+      "acquireMode": "averager", 
+      "address": "1", 
+      "bandwidth": "Full", 
+      "clockType": "ref", 
+      "delay": 0.0, 
+      "enabled": false, 
+      "label": "Scope2", 
+      "nbrRoundRobins": 1000, 
+      "nbrSegments": 1, 
+      "nbrWaveforms": 1, 
+      "recordLength": 4096, 
+      "samplingRate": 1000000000.0, 
+      "triggerCoupling": "AC", 
+      "triggerLevel": 0.0, 
+      "triggerSlope": "rising", 
+      "triggerSource": "Ext", 
+      "verticalCoupling": "AC", 
+      "verticalOffset": 0.0, 
+      "verticalScale": 1.0, 
+      "x__class__": "AlazarATS9870", 
       "x__module__": "instruments.Digitizers"
     }, 
     "SpectrumAnalyzer": {
@@ -152,11 +276,21 @@
       "x__class__": "SpectrumAnalyzer", 
       "x__module__": "instruments.Analysers"
     }, 
+    "TDM": {
+      "address": "", 
+      "enabled": false, 
+      "isMaster": false, 
+      "label": "TDM", 
+      "triggerInterval": 0.0001, 
+      "x__class__": "APS2TDM", 
+      "x__module__": "instruments.drivers.APS2"
+    }, 
     "Tektronix": {
       "address": "USB0::0x0699::0x0347::C033963::0::INSTR", 
       "amp": 2.0, 
       "channel": "2", 
-      "enabled": true, 
+      "delay": 0.0, 
+      "enabled": false, 
       "label": "Tektronix", 
       "output": false, 
       "width": 50.0, 
@@ -164,6 +298,7 @@
       "x__module__": "instruments.PulseGenerators"
     }
   }, 
+  "version": 3, 
   "x__class__": "InstrumentLibrary", 
   "x__module__": "instruments.InstrumentManager"
 }

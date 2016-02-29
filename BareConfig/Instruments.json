@@ -1,0 +1,135 @@
+{
+  "instrDict": {
+    "APS": {
+      "address": "A6001nBT", 
+      "channels": [
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }
+      ], 
+      "delay": 0.0, 
+      "enabled": true, 
+      "isMaster": true, 
+      "label": "APS", 
+      "miniLLRepeat": 0, 
+      "numChannels": 4, 
+      "samplingRate": 1200000000.0, 
+      "seqFile": "C:/Users/Caleb/Development/BBN/AWG/Bias/both-APS.h5", 
+      "seqForce": true, 
+      "triggerInterval": 0.01, 
+      "triggerSource": "External", 
+      "x__class__": "APS", 
+      "x__module__": "instruments.drivers.APS"
+    }, 
+    "APS21": {
+      "address": "", 
+      "channels": [
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }, 
+        {
+          "amplitude": 1.0, 
+          "enabled": true, 
+          "label": "", 
+          "offset": 0.0, 
+          "x__class__": "AWGChannel", 
+          "x__module__": "instruments.AWGBase"
+        }
+      ], 
+      "delay": 0.0, 
+      "enabled": true, 
+      "isMaster": false, 
+      "label": "APS21", 
+      "numChannels": 2, 
+      "samplingRate": 1200000000.0, 
+      "seqFile": "", 
+      "seqForce": true, 
+      "triggerInterval": 0.0001, 
+      "triggerSource": "Internal", 
+      "x__class__": "APS2", 
+      "x__module__": "instruments.drivers.APS2"
+    }, 
+    "Attenuator": {
+      "address": "COM10", 
+      "ch1Attenuation": 0.0, 
+      "ch2Attenuation": 0.0, 
+      "ch3Attenuation": 0.0, 
+      "enabled": false, 
+      "label": "Attenuator", 
+      "x__class__": "DigitalAttenuator", 
+      "x__module__": "instruments.Attenuators"
+    }, 
+    "Labbrick": {
+      "address": "1898", 
+      "alc": false, 
+      "enabled": false, 
+      "frequency": 9.01, 
+      "gateBuffer": 2e-08, 
+      "gateDelay": -6e-08, 
+      "gateMinWidth": 1e-07, 
+      "label": "Labbrick", 
+      "mod": false, 
+      "output": true, 
+      "power": 0.0, 
+      "pulse": false, 
+      "pulseSource": "Internal", 
+      "refSource": "External", 
+      "x__class__": "Labbrick", 
+      "x__module__": "instruments.MicrowaveSources"
+    }, 
+    "MXG": {
+      "address": "30", 
+      "alc": false, 
+      "enabled": false, 
+      "frequency": 10.0, 
+      "gateBuffer": 2e-08, 
+      "gateDelay": -6e-08, 
+      "gateMinWidth": 1e-07, 
+      "label": "MXG", 
+      "mod": false, 
+      "output": true, 
+      "power": 13.0, 
+      "pulse": false, 
+      "pulseSource": "Internal", 
+      "x__class__": "AgilentN5183A", 
+      "x__module__": "instruments.MicrowaveSources"
+    }
+  }, 
+  "version": 3, 
+  "x__class__": "InstrumentLibrary", 
+  "x__module__": "instruments.InstrumentManager"
+}

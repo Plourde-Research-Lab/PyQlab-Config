@@ -1,0 +1,17 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "segment", 
+      "partition": 1, 
+      "points": [
+        1
+      ], 
+      "unit": null
+    }
+  ], 
+  "instruments": {
+    "APS": "Z:\\Experiments\\ADR2\\pyqlab-config\\AWG\\JPM\\JPM-APS.h5"
+  }, 
+  "num_measurements": 1, 
+  "num_sequences": 1
+}

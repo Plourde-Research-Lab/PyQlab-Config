@@ -1,0 +1,29 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "time",
+      "partition": 1,
+      "points": [
+        0.0,
+        99.99999999999999
+      ],
+      "unit": "us"
+    },
+    {
+      "name": "calibration",
+      "partition": 2,
+      "points": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "unit": "state"
+    }
+  ],
+  "instruments": {
+    "APS": "/home/cjhowing/labshare/Experiments/ADR2/pyqlab-config/AWG/T1/T1-APS.h5"
+  },
+  "num_measurements": 6,
+  "num_sequences": 6
+}

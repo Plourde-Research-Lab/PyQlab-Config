@@ -13,6 +13,20 @@
 		"sweepOrder" : ["SegmentNum"],
 		"nbrSegments" : 51
 	},
+	"RabiWidth" : {
+		"seqDir" : "Rabi",
+		"seqFile" : "Rabi",
+		"sweeps" : {
+			"Segments" : {
+				"axisLabel" : "Pulse Width",
+				"start" : 0,
+				"step" : 0.02,
+				"stop" : 1.0
+			}
+		},
+		"sweepOrder" : ["Segments"],
+		"nbrSegments" : 51
+	},
 	"Ramsey" : {
 		"seqDir" : "Ramsey",
 		"seqFile" : "Ramsey",
@@ -81,13 +95,13 @@
 			"SegmentNumWithCals" : {
 				"axisLabel" : "Delay",
 				"start" : 0,
-				"stop" : 200000,
-				"numPoints" : 51,
+				"stop" : 50000,
+				"numPoints" : 101,
 				"numCals" : 4
 			}
 		},
 		"sweepOrder" : ["SegmentNumWithCals"],
-		"nbrSegments" : 55
+		"nbrSegments" : 105
 	},
 	"RabiWidthFreq": {
 		"seqDir" : "RabiWidth",
@@ -257,6 +271,20 @@
 			}
 		},
 		"sweepOrder": ["Cavity"],
+		"nbrSegments" : 1
+	},
+	"Spectroscopy": {
+		"seqDir": "spectroscopy",
+		"seqFile": "spct",
+		"sweeps": {
+			"Frequency" : {
+				"axisLabel": "Frequency",
+				"start": 4.0,
+				"stop": 4.5,
+				"numPoints": 501
+			}
+		},
+		"sweepOrder": ["Frequency"],
 		"nbrSegments" : 1
 	}
 }

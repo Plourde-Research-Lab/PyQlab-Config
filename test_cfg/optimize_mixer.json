@@ -1,7 +1,7 @@
 {
 	"InstrParams": {
 		"SA": {
-			"LOsource": "AgilentMXG",
+			"LOsource": "BottomAgilentE8257D",
 			"span": 1000000,
 			"resolution_bw": 100000,
 			"sweep_points": 600,
@@ -29,13 +29,13 @@
 			},
 			"ampFactor": {
 				"start": 0.65,
-				"stop": 1.15,
+				"stop": 1.55,
 				"numPoints": 65
 			},
 			"phaseSkew": {
-				"start": -30,
-				"stop": 20,
-				"numPoints": 60
+				"start": -40,
+				"stop": 40,
+				"numPoints": 80
 			}
 		},
 		"verbose": 0,

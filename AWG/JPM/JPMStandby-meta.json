@@ -10,8 +10,8 @@
     }
   ],
   "instruments": {
-    "APS": "/Users/Caleb/Development/pyqlab-config/AWG/Cavity/Cavity-APS.h5",
-    "APSB": "/Users/Caleb/Development/pyqlab-config/AWG/Cavity/Cavity-APSB.h5"
+    "APS2_1": "/Users/Caleb/Development/pyqlab-config/AWG/JPM/JPMStandby-APS2_1.h5",
+    "APS2_2": "/Users/Caleb/Development/pyqlab-config/AWG/JPM/JPMStandby-APS2_2.h5"
   },
   "num_measurements": 1,
   "num_sequences": 1,

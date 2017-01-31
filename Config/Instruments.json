@@ -1,24 +1,8 @@
 {
   "instrDict": {
-    "APS": {
-      "address": "A6001ixV",
+    "APS2_1": {
+      "address": "192.168.2.2",
       "channels": [
-        {
-          "amplitude": 1.0,
-          "enabled": true,
-          "label": "",
-          "offset": 0.0,
-          "x__class__": "AWGChannel",
-          "x__module__": "instruments.AWGBase"
-        },
-        {
-          "amplitude": 1.0,
-          "enabled": true,
-          "label": "",
-          "offset": 0.0,
-          "x__class__": "AWGChannel",
-          "x__module__": "instruments.AWGBase"
-        },
         {
           "amplitude": 1.0,
           "enabled": true,
@@ -39,36 +23,19 @@
       "delay": 0.0,
       "enabled": true,
       "isMaster": true,
-      "label": "APS",
-      "miniLLRepeat": 0,
-      "numChannels": 4,
+      "label": "APS2_1",
+      "numChannels": 2,
       "samplingRate": 1200000000.0,
-      "seqFile": "Z:/Experiments/ADR2/pyqlab-config/AWG/Bias/Bias-APS.h5",
+      "seqFile": "",
       "seqForce": true,
       "triggerInterval": 0.0001,
-      "triggerSource": "External",
-      "x__class__": "APS",
-      "x__module__": "instruments.drivers.APS"
+      "triggerSource": "Internal",
+      "x__class__": "APS2",
+      "x__module__": "instruments.drivers.APS2"
     },
-    "APSB": {
-      "address": "A6001nBT",
+    "APS2_2": {
+      "address": "192.168.2.3",
       "channels": [
-        {
-          "amplitude": 1.0,
-          "enabled": true,
-          "label": "",
-          "offset": 0.0,
-          "x__class__": "AWGChannel",
-          "x__module__": "instruments.AWGBase"
-        },
-        {
-          "amplitude": 1.0,
-          "enabled": true,
-          "label": "",
-          "offset": 0.0,
-          "x__class__": "AWGChannel",
-          "x__module__": "instruments.AWGBase"
-        },
         {
           "amplitude": 1.0,
           "enabled": true,
@@ -87,18 +54,17 @@
         }
       ],
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "isMaster": false,
-      "label": "APSB",
-      "miniLLRepeat": 0,
-      "numChannels": 4,
+      "label": "APS2_2",
+      "numChannels": 2,
       "samplingRate": 1200000000.0,
-      "seqFile": "Z:/Experiments/ADR2/pyqlab-config/AWG/Spect/Spect-APS.h5",
+      "seqFile": "",
       "seqForce": true,
       "triggerInterval": 0.0001,
-      "triggerSource": "External",
-      "x__class__": "APS",
-      "x__module__": "instruments.drivers.APS"
+      "triggerSource": "Internal",
+      "x__class__": "APS2",
+      "x__module__": "instruments.drivers.APS2"
     },
     "Attenuator": {
       "address": "COM6",
@@ -183,19 +149,19 @@
       "delay": 0.0,
       "enabled": true,
       "label": "Scope",
-      "nbrRoundRobins": 5000,
+      "nbrRoundRobins": 500,
       "nbrSegments": 1,
       "nbrWaveforms": 1,
-      "recordLength": 4096,
+      "recordLength": 1024,
       "samplingRate": 1000000000.0,
-      "triggerCoupling": "AC",
-      "triggerLevel": 1.0,
+      "triggerCoupling": "DC",
+      "triggerLevel": 100.0,
       "triggerSlope": "rising",
       "triggerSource": "Ext",
-      "verticalCoupling": "DC",
+      "verticalCoupling": "AC",
       "verticalOffset": 0.0,
       "verticalScale": 1.0,
-      "x__class__": "AgilentAP240",
+      "x__class__": "AlazarATS9870",
       "x__module__": "instruments.Digitizers"
     }
   },

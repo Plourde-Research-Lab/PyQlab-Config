@@ -10,8 +10,10 @@
     }
   ],
   "instruments": {
-    "APS": "/home/cjhowing/labshare/Experiments/ADR2/pyqlab-config/AWG/Bias/Bias-APS.h5"
+    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Bias\\Bias-APS22.h5",
+    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Bias\\Bias-APS23.h5"
   },
   "num_measurements": 1,
-  "num_sequences": 1
+  "num_sequences": 1,
+  "receivers": {}
 }

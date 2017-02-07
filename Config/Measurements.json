@@ -2,10 +2,10 @@
   "filterDict": {
     "Demod": {
       "IFfreq": 10000000.0,
-      "bandwidth": 17000000.0,
+      "bandwidth": 7000000.0,
       "dataSource": "Stream",
       "decimFactor1": 4,
-      "decimFactor2": 1,
+      "decimFactor2": 4,
       "decimFactor3": 1,
       "enabled": true,
       "label": "Demod",
@@ -19,15 +19,15 @@
       "x__class__": "DigitalDemod",
       "x__module__": "MeasFilters"
     },
-    "Integrate": {
-      "IFfreq": -19000000.0,
+    "M1_KernelIntegrator": {
+      "IFfreq": 10000000.0,
       "bias": 0.0,
-      "boxCarStart": 1,
-      "boxCarStop": 1,
+      "boxCarStart": 100,
+      "boxCarStop": 250,
       "dataSource": "Demod",
       "enabled": true,
-      "kernel": "np.ones(1024, dtype=np.complex128)",
-      "label": "Integrate",
+      "kernel": "np.ones(256, dtype=np.complex128)",
+      "label": "M1_KernelIntegrator",
       "plotMode": "quad",
       "plotScope": true,
       "samplingRate": 1000000000.0,
@@ -38,7 +38,7 @@
     },
     "Stream": {
       "channel": "1",
-      "dataSource": "Scope",
+      "dataSource": "Alazar",
       "enabled": true,
       "label": "Stream",
       "plotMode": "real/imag",

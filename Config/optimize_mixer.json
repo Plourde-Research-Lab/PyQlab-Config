@@ -1,7 +1,7 @@
 {
 	"InstrParams": {
-		"SpectrumAnalyzer": {
-			"LOsource": "HMCT2100",
+		"SA": {
+			"LOsource": "HTCI",
 			"span": 1000000,
 			"resolution_bw": 100000,
 			"sweep_points": 600,
@@ -10,7 +10,7 @@
 		}
 	},
 	"ExpParams": {
-		"specAnalyzer": "SpectrumAnalyzer",
+		"specAnalyzer": "SA",
 		"Search": {
 			"max_offset": 0.5,
 			"max_steps": 50,
@@ -19,8 +19,8 @@
 			"distance_threshold": 0.002,
 			"local_search": 0
 		},
-		"SSBAWGFile": "C:\\Users\\Caleb\\Development\\BBN\\AWGS\\MixerCal\\MixerCal.awg",
-		"SSBFreq": -10000000,
+		"SSBAWGFile": "C:\\Users\\Britton\\My Documents\\BBN\\awgs\\MixerCal\\MixerCal.awg",
+		"SSBFreq": 10000000,
 		"Sweep": {
 			"offset": {
 				"start": -0.2,
@@ -29,16 +29,16 @@
 			},
 			"ampFactor": {
 				"start": 0.65,
-				"stop": 1.15,
+				"stop": 1.55,
 				"numPoints": 65
 			},
 			"phaseSkew": {
-				"start": -30,
-				"stop": 20,
-				"numPoints": 60
+				"start": -40,
+				"stop": 40,
+				"numPoints": 80
 			}
 		},
-		"verbose": 1,
+		"verbose": 0,
 		"SoftwareDevelopmentMode": 0
 	}
 }

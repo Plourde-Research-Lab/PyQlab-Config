@@ -205,19 +205,6 @@
       "verticalScale": 0.5,
       "x__class__": "AgilentAP240",
       "x__module__": "instruments.Digitizers"
-    },
-    "Tek": {
-      "address": "11",
-      "channel": 2,
-      "enabled": false,
-      "label": "Tek",
-      "mode": "voltage",
-      "output": true,
-      "outputRange": 0.001,
-      "value": 1.0,
-      "width": 5000.0,
-      "x__class__": "TekAFG3022B",
-      "x__module__": "instruments.DCSources"
     }
   },
   "version": 3,

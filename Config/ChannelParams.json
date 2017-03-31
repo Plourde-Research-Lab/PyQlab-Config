@@ -55,7 +55,7 @@
       "x__module__": "QGL.Channels"
     },
     "APS22-12m4": {
-      "delay": 0.0,
+      "delay": 1e-06,
       "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
@@ -141,9 +141,9 @@
       "gateChan": "M-q1-gate",
       "label": "M-q1",
       "measType": "autodyne",
-      "physChan": "APS23-12",
+      "physChan": "APS22-12",
       "pulseParams": {
-        "amp": 0.5,
+        "amp": 1.0,
         "cutoff": 2,
         "length": 5e-06,
         "shapeFun": "tanh",
@@ -156,7 +156,7 @@
     "M-q1-gate": {
       "enabled": true,
       "label": "M-q1-gate",
-      "physChan": "APS23-12m3",
+      "physChan": "APS22-12m3",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"
@@ -167,7 +167,7 @@
     "digitizerTrig": {
       "enabled": true,
       "label": "digitizerTrig",
-      "physChan": "APS23-12m4",
+      "physChan": "APS22-12m4",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"
@@ -177,17 +177,17 @@
     },
     "q1": {
       "enabled": true,
-      "frequency": 0.0,
+      "frequency": -100000000.0,
       "gateChan": "q1-gate",
       "label": "q1",
-      "physChan": "APS22-12",
+      "physChan": "APS23-12",
       "pulseParams": {
         "cutoff": 2,
         "dragScaling": 0.0,
-        "length": 1.5e-07,
-        "pi2Amp": 0.3531,
-        "piAmp": 1.0,
-        "shapeFun": "tanh",
+        "length": 1e-07,
+        "pi2Amp": 0.4245,
+        "piAmp": 0.8245,
+        "shapeFun": "gaussian",
         "sigma": 1e-09
       },
       "x__class__": "Qubit",
@@ -196,7 +196,7 @@
     "q1-gate": {
       "enabled": true,
       "label": "q1-gate",
-      "physChan": "APS22-12m2",
+      "physChan": "APS23-12m1",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"
@@ -236,7 +236,7 @@
     "slaveTrig": {
       "enabled": true,
       "label": "slaveTrig",
-      "physChan": "APS23-12m2",
+      "physChan": "APS22-12m2",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"

@@ -12,7 +12,7 @@
   ],
   "instruments": {
     "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\SingleShot\\SingleShot-APS21.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\SingleShot\\SingleShot-APS22.h5"
+    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\SingleShot\\SingleShot-APS23.h5"
   },
   "num_measurements": 2,
   "num_sequences": 2,

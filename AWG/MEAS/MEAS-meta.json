@@ -1,0 +1,18 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "segment",
+      "partition": 1,
+      "points": [
+        1
+      ],
+      "unit": null
+    }
+  ],
+  "instruments": {
+    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\MEAS\\MEAS-APS21.h5"
+  },
+  "num_measurements": 1,
+  "num_sequences": 1,
+  "receivers": {}
+}

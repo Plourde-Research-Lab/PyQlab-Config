@@ -1,0 +1,33 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "time",
+      "partition": 1,
+      "points": [
+        0.0,
+        3.3333333333333335,
+        6.666666666666667,
+        10.0
+      ],
+      "unit": "us"
+    },
+    {
+      "name": "calibration",
+      "partition": 2,
+      "points": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "unit": "state"
+    }
+  ],
+  "instruments": {
+    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Ramsey\\Ramsey-APS21.h5",
+    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Ramsey\\Ramsey-APS22.h5"
+  },
+  "num_measurements": 8,
+  "num_sequences": 8,
+  "receivers": {}
+}

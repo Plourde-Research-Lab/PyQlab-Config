@@ -10,8 +10,10 @@
     }
   ],
   "instruments": {
-    "APS": "/home/cjhowing/labshare/Experiments/ADR2/pyqlab-config/AWG/Spect/Spect-APS.h5"
+    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Spect\\Spect-APS21.h5",
+    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Spect\\Spect-APS22.h5"
   },
   "num_measurements": 1,
-  "num_sequences": 1
+  "num_sequences": 1,
+  "receivers": {}
 }

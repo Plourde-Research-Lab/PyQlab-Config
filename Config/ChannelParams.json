@@ -1,5 +1,72 @@
 {
   "channelDict": {
+    "APS21-12": {
+      "IChannel": "",
+      "QChannel": "",
+      "ampFactor": 1.0,
+      "delay": 0.0,
+      "enabled": true,
+      "generator": "MXG",
+      "instrument": "APS21",
+      "label": "APS21-12",
+      "phaseSkew": 0.0,
+      "samplingRate": 1200000000.0,
+      "translator": "APS2Pattern",
+      "x__class__": "PhysicalQuadratureChannel",
+      "x__module__": "QGL.Channels"
+    },
+    "APS21-12m1": {
+      "delay": 0.0,
+      "enabled": true,
+      "gateBuffer": 0.0,
+      "gateMinWidth": 0.0,
+      "generator": "",
+      "instrument": "APS21",
+      "label": "APS21-12m1",
+      "samplingRate": 1200000000.0,
+      "translator": "APS2Pattern",
+      "x__class__": "PhysicalMarkerChannel",
+      "x__module__": "QGL.Channels"
+    },
+    "APS21-12m2": {
+      "delay": 0.0,
+      "enabled": true,
+      "gateBuffer": 0.0,
+      "gateMinWidth": 0.0,
+      "generator": "",
+      "instrument": "APS21",
+      "label": "APS21-12m2",
+      "samplingRate": 1200000000.0,
+      "translator": "APS2Pattern",
+      "x__class__": "PhysicalMarkerChannel",
+      "x__module__": "QGL.Channels"
+    },
+    "APS21-12m3": {
+      "delay": 0.0,
+      "enabled": true,
+      "gateBuffer": 0.0,
+      "gateMinWidth": 0.0,
+      "generator": "",
+      "instrument": "APS21",
+      "label": "APS21-12m3",
+      "samplingRate": 1200000000.0,
+      "translator": "APS2Pattern",
+      "x__class__": "PhysicalMarkerChannel",
+      "x__module__": "QGL.Channels"
+    },
+    "APS21-12m4": {
+      "delay": 0.0,
+      "enabled": true,
+      "gateBuffer": 0.0,
+      "gateMinWidth": 0.0,
+      "generator": "",
+      "instrument": "APS21",
+      "label": "APS21-12m4",
+      "samplingRate": 1200000000.0,
+      "translator": "APS2Pattern",
+      "x__class__": "PhysicalMarkerChannel",
+      "x__module__": "QGL.Channels"
+    },
     "APS22-12": {
       "IChannel": "",
       "QChannel": "",
@@ -141,7 +208,7 @@
       "gateChan": "M-q1-gate",
       "label": "M-q1",
       "measType": "autodyne",
-      "physChan": "APS22-12",
+      "physChan": "APS21-12",
       "pulseParams": {
         "amp": 1.0,
         "cutoff": 2,
@@ -156,7 +223,7 @@
     "M-q1-gate": {
       "enabled": true,
       "label": "M-q1-gate",
-      "physChan": "APS22-12m3",
+      "physChan": "APS21-12m1",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"
@@ -167,9 +234,9 @@
     "digitizerTrig": {
       "enabled": true,
       "label": "digitizerTrig",
-      "physChan": "APS22-12m4",
+      "physChan": "APS21-12m2",
       "pulseParams": {
-        "length": 1e-07,
+        "length": 2e-07,
         "shapeFun": "constant"
       },
       "x__class__": "LogicalMarkerChannel",
@@ -177,17 +244,17 @@
     },
     "q1": {
       "enabled": true,
-      "frequency": -100000000.0,
+      "frequency": 0.0,
       "gateChan": "q1-gate",
       "label": "q1",
-      "physChan": "APS23-12",
+      "physChan": "APS22-12",
       "pulseParams": {
         "cutoff": 2,
         "dragScaling": 0.0,
         "length": 1e-07,
         "pi2Amp": 0.4245,
-        "piAmp": 0.8245,
-        "shapeFun": "gaussian",
+        "piAmp": 1.0,
+        "shapeFun": "tanh",
         "sigma": 1e-09
       },
       "x__class__": "Qubit",
@@ -196,7 +263,7 @@
     "q1-gate": {
       "enabled": true,
       "label": "q1-gate",
-      "physChan": "APS23-12m1",
+      "physChan": "APS22-12m1",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"
@@ -209,7 +276,7 @@
       "frequency": 0.0,
       "gateChan": "q2-gate",
       "label": "q2",
-      "physChan": "APS22-12",
+      "physChan": "APS23-12",
       "pulseParams": {
         "cutoff": 2,
         "dragScaling": 0,
@@ -225,7 +292,7 @@
     "q2-gate": {
       "enabled": false,
       "label": "q2-gate",
-      "physChan": "APS22-12m1",
+      "physChan": "APS23-12m1",
       "pulseParams": {
         "length": 1e-08,
         "shapeFun": "constant"
@@ -236,7 +303,7 @@
     "slaveTrig": {
       "enabled": true,
       "label": "slaveTrig",
-      "physChan": "APS22-12m2",
+      "physChan": "APS21-12m4",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"

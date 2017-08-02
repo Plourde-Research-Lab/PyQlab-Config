@@ -89,8 +89,8 @@
     }
   ],
   "instruments": {
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Rabi\\Rabi-APS22.h5",
-    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Rabi\\Rabi-APS23.h5"
+    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Rabi\\Rabi-APS21.h5",
+    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Rabi\\Rabi-APS22.h5"
   },
   "num_measurements": 80,
   "num_sequences": 80,

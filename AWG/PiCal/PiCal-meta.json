@@ -43,8 +43,8 @@
     }
   ],
   "instruments": {
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS22.h5",
-    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS23.h5"
+    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS21.h5",
+    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS22.h5"
   },
   "num_measurements": 34,
   "num_sequences": 34,

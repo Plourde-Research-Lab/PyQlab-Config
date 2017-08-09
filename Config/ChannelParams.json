@@ -273,7 +273,7 @@
       "x__module__": "QGL.Channels"
     },
     "jpm1": {
-      "enabled": false,
+      "enabled": true,
       "frequency": 0.0,
       "gateChan": "jpm1-gate",
       "label": "jpm1",
@@ -281,8 +281,8 @@
       "pulseParams": {
         "amp": 1.0,
         "interactAmp": 1.0,
-        "interactDelay": 9e-08,
-        "interactLength": 1.5e-08,
+        "interactDelay": 0.0,
+        "interactLength": 2e-08,
         "length": 1.2e-06,
         "parkAmp": 1.0,
         "parkLength": 1.2e-06,

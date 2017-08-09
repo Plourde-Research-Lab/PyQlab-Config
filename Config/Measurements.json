@@ -1,8 +1,8 @@
 {
   "filterDict": {
     "Demod": {
-      "IFfreq": 100000000.0,
-      "bandwidth": 15000000.0,
+      "IFfreq": 30000000.0,
+      "bandwidth": 7000000.0,
       "dataSource": "Stream",
       "decimFactor1": 1,
       "decimFactor2": 2,

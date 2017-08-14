@@ -253,7 +253,7 @@
         "dragScaling": 0.0,
         "length": 1e-07,
         "pi2Amp": 0.5,
-        "piAmp": 0.9124,
+        "piAmp": 1.0,
         "shapeFun": "tanh",
         "sigma": 1e-09
       },

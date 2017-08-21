@@ -280,19 +280,19 @@
       "physChan": "APS23-12",
       "pulseParams": {
         "amp": 1.0,
-        "interactAmp": 1.0,
+        "interactAmp": 0.28,
         "interactDelay": 0.0,
-        "interactLength": 2e-08,
+        "interactLength": 1e-07,
         "length": 1.2e-06,
-        "parkAmp": 1.0,
+        "parkAmp": 0.27,
         "parkLength": 1.2e-06,
         "shapeFun": "jpm",
         "sigma": 5e-10,
-        "standbyAmp": 0.1,
+        "standbyAmp": 0.0,
         "standbyDelay": 0.0,
         "standbyLength": 0.0,
-        "tiltAmp": 0.0,
-        "tiltLength": 0.0
+        "tiltAmp": 0.538,
+        "tiltLength": 5e-08
       },
       "x__class__": "JPM",
       "x__module__": "QGL.Channels"

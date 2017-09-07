@@ -122,7 +122,7 @@
       "x__module__": "QGL.Channels"
     },
     "APS22-12m4": {
-      "delay": 1e-06,
+      "delay": 0.0,
       "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
@@ -263,7 +263,7 @@
     "q1-gate": {
       "enabled": true,
       "label": "q1-gate",
-      "physChan": "APS22-12m1",
+      "physChan": "APS22-12m4",
       "pulseParams": {
         "length": 1e-07,
         "shapeFun": "constant"

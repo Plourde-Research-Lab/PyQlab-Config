@@ -1,2 +1,22 @@
 seqs =
-[[JPM3(jpm1, amp=1, phase=0, frameChange=0.0)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x0000024C13E53AE8>)]]
+[[Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)],
+ [Meander(jpm1, amp=1, phase=0, frameChange=0.0, shapeFun=<function meander at 0x000001B58FFAEB70>)⊗ MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001B58FFAE950>)]]

@@ -1,10 +1,10 @@
 {
   "filterDict": {
     "Demod": {
-      "IFfreq": 30000000.0,
-      "bandwidth": 10000000.0,
+      "IFfreq": 50000000.0,
+      "bandwidth": 5000000.0,
       "dataSource": "Stream",
-      "decimFactor1": 1,
+      "decimFactor1": 2,
       "decimFactor2": 2,
       "decimFactor3": 1,
       "enabled": true,
@@ -20,17 +20,17 @@
       "x__module__": "MeasFilters"
     },
     "Integrate": {
-      "IFfreq": 50000000.0,
+      "IFfreq": 0.0,
       "bias": 0.0,
-      "boxCarStart": 30,
-      "boxCarStop": 60,
-      "dataSource": "Demod",
+      "boxCarStart": 200,
+      "boxCarStop": 500,
+      "dataSource": "Stream",
       "enabled": true,
-      "kernel": "np.ones(128, dtype=np.complex128)",
+      "kernel": "np.ones(512, dtype=np.complex128)",
       "label": "Integrate",
       "plotMode": "quad",
       "plotScope": true,
-      "samplingRate": 1000000000.0,
+      "samplingRate": 500000000.0,
       "saved": true,
       "simpleKernel": false,
       "x__class__": "KernelIntegration",

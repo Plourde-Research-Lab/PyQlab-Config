@@ -4,7 +4,27 @@
       "name": "segment",
       "partition": 1,
       "points": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
       "unit": null
     }
@@ -13,7 +33,7 @@
     "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Bias\\Bias-APS21.h5",
     "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Bias\\Bias-APS23.h5"
   },
-  "num_measurements": 1,
-  "num_sequences": 1,
+  "num_measurements": 21,
+  "num_sequences": 21,
   "receivers": {}
 }

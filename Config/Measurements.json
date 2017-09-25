@@ -10,7 +10,7 @@
       "enabled": true,
       "label": "Demod",
       "phase": 0.0,
-      "plotMode": "quad",
+      "plotMode": "amp/phase",
       "plotScope": true,
       "recordsFilePath": "",
       "samplingRate": 1000000000.0,
@@ -20,7 +20,7 @@
       "x__module__": "MeasFilters"
     },
     "M1_KernelIntegrator": {
-      "IFfreq": 10000000.0,
+      "IFfreq": 0.0,
       "bias": 0.0,
       "boxCarStart": 100,
       "boxCarStop": 250,

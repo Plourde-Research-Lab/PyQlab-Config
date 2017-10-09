@@ -1,2 +1,2 @@
 seqs =
-[[MEAS(M-jpm1, shapeFun=<function autodyne at 0x000001E40743B840>)]]
+[[MEAS(M-q1, shapeFun=<function autodyne at 0x0000017CE37E48C8>)]]

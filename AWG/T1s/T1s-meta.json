@@ -1,0 +1,39 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "Length",
+      "partition": 1,
+      "points": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unit": "us"
+    }
+  ],
+  "instruments": {
+    "APS23": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\T1s\\T1s-APS23.h5",
+    "APS24": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\T1s\\T1s-APS24.h5"
+  },
+  "num_measurements": 147,
+  "num_sequences": 21,
+  "receivers": {}
+}

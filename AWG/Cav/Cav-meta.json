@@ -4,15 +4,16 @@
       "name": "segment",
       "partition": 1,
       "points": [
+        0,
         1
       ],
       "unit": null
     }
   ],
   "instruments": {
-    "APS2": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Cav\\Cav-APS2.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Cav\\Cav-APS22.h5",
-    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Cav\\Cav-APS23.h5"
+    "APS1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Cav\\Cav-APS1.h5",
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Cav\\Cav-APSII1.h5",
+    "TDM": ""
   },
   "num_measurements": 1,
   "num_sequences": 1,

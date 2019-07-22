@@ -1,0 +1,35 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "segment",
+      "partition": 1,
+      "points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "unit": null
+    }
+  ],
+  "instruments": {
+    "APS1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\DRAGCal3\\DRAGCal3-APS1.h5",
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\DRAGCal3\\DRAGCal3-APSII1.h5",
+    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\DRAGCal3\\DRAGCal3-APSII4.h5",
+    "TDM": ""
+  },
+  "num_measurements": 15,
+  "num_sequences": 15,
+  "receivers": {}
+}

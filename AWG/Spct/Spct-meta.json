@@ -4,14 +4,18 @@
       "name": "segment",
       "partition": 1,
       "points": [
+        0,
         1
       ],
       "unit": null
     }
   ],
   "instruments": {
-    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Spct\\Spct-APS21.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Spct\\Spct-APS22.h5"
+    "APS21": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spct\\Spct-APS21.h5",
+    "APS22": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spct\\Spct-APS22.h5",
+    "APS23": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spct\\Spct-APS23.h5",
+    "APS24": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spct\\Spct-APS24.h5",
+    "TDM": ""
   },
   "num_measurements": 1,
   "num_sequences": 1,

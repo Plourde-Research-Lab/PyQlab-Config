@@ -1,0 +1,19 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "segment",
+      "partition": 1,
+      "points": [],
+      "unit": null
+    }
+  ],
+  "instruments": {
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\EchoCRAC\\EchoCRAC-APSII1.h5",
+    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\EchoCRAC\\EchoCRAC-APSII2.h5",
+    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\EchoCRAC\\EchoCRAC-APSII4.h5",
+    "TDM": ""
+  },
+  "num_measurements": 0,
+  "num_sequences": 2,
+  "receivers": {}
+}

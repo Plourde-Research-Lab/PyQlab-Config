@@ -49,8 +49,9 @@
     }
   ],
   "instruments": {
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\RepeatCal\\RepeatCal-APS22.h5",
-    "APS23": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\RepeatCal\\RepeatCal-APS23.h5"
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\RepeatCal\\RepeatCal-APSII1.h5",
+    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\RepeatCal\\RepeatCal-APSII2.h5",
+    "TDM": ""
   },
   "num_measurements": 40,
   "num_sequences": 40,

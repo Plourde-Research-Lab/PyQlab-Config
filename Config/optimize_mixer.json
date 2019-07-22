@@ -1,7 +1,7 @@
 {
 	"InstrParams": {
 		"SA": {
-			"LOsource": "HTCI",
+			"LOsource":HMCII,
 			"span": 1000000,
 			"resolution_bw": 100000,
 			"sweep_points": 600,
@@ -20,22 +20,22 @@
 			"local_search": 0
 		},
 		"SSBAWGFile": "C:\\Users\\Britton\\My Documents\\BBN\\awgs\\MixerCal\\MixerCal.awg",
-		"SSBFreq": 10000000,
+		"SSBFreq":170e6,
 		"Sweep": {
 			"offset": {
-				"start": -0.2,
-				"stop": 0.2,
-				"numPoints": 50
+				"start": -0.05,
+				"stop": 0.05,
+				"numPoints": 100
 			},
 			"ampFactor": {
-				"start": 0.65,
-				"stop": 1.55,
-				"numPoints": 65
+				"start": 0.98,
+				"stop": 1.1,
+				"numPoints": 100
 			},
 			"phaseSkew": {
-				"start": -40,
-				"stop": 40,
-				"numPoints": 80
+				"start":15	,
+				"stop": 23,
+				"numPoints": 100
 			}
 		},
 		"verbose": 0,

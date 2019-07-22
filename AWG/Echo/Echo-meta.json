@@ -121,8 +121,10 @@
     }
   ],
   "instruments": {
-    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Echo\\Echo-APS21.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Echo\\Echo-APS22.h5"
+    "APS1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Echo\\Echo-APS1.h5",
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Echo\\Echo-APSII1.h5",
+    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Echo\\Echo-APSII4.h5",
+    "TDM": ""
   },
   "num_measurements": 105,
   "num_sequences": 105,

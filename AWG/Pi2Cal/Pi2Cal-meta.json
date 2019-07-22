@@ -43,8 +43,10 @@
     }
   ],
   "instruments": {
-    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Pi2Cal\\Pi2Cal-APS21.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Pi2Cal\\Pi2Cal-APS22.h5"
+    "APS1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Pi2Cal\\Pi2Cal-APS1.h5",
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Pi2Cal\\Pi2Cal-APSII1.h5",
+    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Pi2Cal\\Pi2Cal-APSII4.h5",
+    "TDM": ""
   },
   "num_measurements": 34,
   "num_sequences": 34,

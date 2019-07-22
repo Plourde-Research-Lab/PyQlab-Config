@@ -1,0 +1,21 @@
+{
+  "axis_descriptor": [
+    {
+      "name": "segment",
+      "partition": 1,
+      "points": [
+        1,
+        2
+      ],
+      "unit": null
+    }
+  ],
+  "instruments": {
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SingleShot\\SingleShot-APSII1.h5",
+    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SingleShot\\SingleShot-APSII2.h5",
+    "TDM": ""
+  },
+  "num_measurements": 2,
+  "num_sequences": 2,
+  "receivers": {}
+}

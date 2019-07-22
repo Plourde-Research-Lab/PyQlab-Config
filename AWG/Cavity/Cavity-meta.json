@@ -10,7 +10,8 @@
     }
   ],
   "instruments": {
-    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\Cavity\\Cavity-APS21.h5"
+    "APS11": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Cavity\\Cavity-APS11.h5",
+    "APS24": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Cavity\\Cavity-APS24.h5"
   },
   "num_measurements": 1,
   "num_sequences": 1,

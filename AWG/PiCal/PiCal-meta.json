@@ -43,8 +43,9 @@
     }
   ],
   "instruments": {
-    "APS21": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS21.h5",
-    "APS22": "Z:\\Experiments\\DR2\\pyqlab-config\\AWG\\PiCal\\PiCal-APS22.h5"
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\PiCal\\PiCal-APSII1.h5",
+    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\PiCal\\PiCal-APSII2.h5",
+    "TDM": ""
   },
   "num_measurements": 34,
   "num_sequences": 34,

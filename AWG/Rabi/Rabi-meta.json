@@ -110,9 +110,8 @@
     }
   ],
   "instruments": {
-    "APS1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Rabi\\Rabi-APS1.h5",
     "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Rabi\\Rabi-APSII1.h5",
-    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Rabi\\Rabi-APSII4.h5",
+    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Rabi\\Rabi-APSII2.h5",
     "TDM": ""
   },
   "num_measurements": 101,

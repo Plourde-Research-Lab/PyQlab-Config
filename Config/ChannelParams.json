@@ -1,7 +1,7 @@
 {
   "channelDict": {
     "AC": {
-      "enabled": true,
+      "enabled": false,
       "frequency": -100000000.0,
       "label": "AC",
       "physChan": "APSII2-12",
@@ -21,7 +21,7 @@
       "x__module__": "QGL.Channels"
     },
     "AC-gate": {
-      "enabled": true,
+      "enabled": false,
       "label": "AC-gate",
       "physChan": "APSII2-12m2",
       "pulseParams": {
@@ -36,7 +36,7 @@
       "QChannel": "",
       "ampFactor": 0.9802,
       "delay": 0.0,
-      "enabled": true,
+      "enabled": false,
       "generator": "MXG",
       "instrument": "APS1",
       "label": "APS1-12",
@@ -210,7 +210,7 @@
     },
     "APSII2-12m2": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -223,7 +223,7 @@
     },
     "APSII2-12m3": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -236,7 +236,7 @@
     },
     "APSII2-12m4": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -264,7 +264,7 @@
     },
     "APSII3-12m1": {
       "delay": 8.9e-08,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -277,7 +277,7 @@
     },
     "APSII3-12m2": {
       "delay": 1e-08,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -290,7 +290,7 @@
     },
     "APSII3-12m3": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -303,7 +303,7 @@
     },
     "APSII3-12m4": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -331,7 +331,7 @@
     },
     "APSII4-12m1": {
       "delay": 8.9e-08,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -344,7 +344,7 @@
     },
     "APSII4-12m2": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -357,7 +357,7 @@
     },
     "APSII4-12m3": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -370,7 +370,7 @@
     },
     "APSII4-12m4": {
       "delay": 0.0,
-      "enabled": false,
+      "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
       "generator": "",
@@ -382,7 +382,7 @@
       "x__module__": "QGL.Channels"
     },
     "CR12": {
-      "enabled": true,
+      "enabled": false,
       "frequency": -100000000.0,
       "label": "CR12",
       "physChan": "APSII3-12",
@@ -402,7 +402,7 @@
       "x__module__": "QGL.Channels"
     },
     "CR12-gate": {
-      "enabled": true,
+      "enabled": false,
       "label": "CR12-gate",
       "physChan": "APSII3-12m2",
       "pulseParams": {
@@ -444,7 +444,7 @@
     },
     "M-q2": {
       "autodyneFreq": -10000000.0,
-      "enabled": true,
+      "enabled": false,
       "frequency": 0.0,
       "gateChan": "M-q2-gate",
       "label": "M-q2",
@@ -462,7 +462,7 @@
       "x__module__": "QGL.Channels"
     },
     "M-q2-gate": {
-      "enabled": true,
+      "enabled": false,
       "label": "M-q2-gate",
       "physChan": "APSII1-12m3",
       "pulseParams": {
@@ -486,15 +486,16 @@
     "q1": {
       "enabled": true,
       "frequency": -100000000.0,
+      "gateChan": "q1-gate",
       "label": "q1",
       "physChan": "APSII2-12",
       "pulseParams": {
         "cutoff": 2.0,
-        "dragScaling": -0.0145256,
-        "length": 2e-08,
-        "pi2Amp": 0.2979974,
-        "piAmp": 0.668,
-        "shapeFun": "drag",
+        "dragScaling": 0.0,
+        "length": 4e-08,
+        "pi2Amp": 0.4486403,
+        "piAmp": 0.9,
+        "shapeFun": "gaussian",
         "sigma": 5e-09
       },
       "x__class__": "Qubit",
@@ -512,7 +513,7 @@
       "x__module__": "QGL.Channels"
     },
     "q2": {
-      "enabled": true,
+      "enabled": false,
       "frequency": 170000000.0,
       "label": "q2",
       "physChan": "APSII4-12",
@@ -529,7 +530,7 @@
       "x__module__": "QGL.Channels"
     },
     "q2-gate": {
-      "enabled": true,
+      "enabled": false,
       "label": "q2-gate",
       "physChan": "APSII4-12m1",
       "pulseParams": {
@@ -540,7 +541,7 @@
       "x__module__": "QGL.Channels"
     },
     "q3": {
-      "enabled": true,
+      "enabled": false,
       "frequency": 150000000.0,
       "label": "q3",
       "physChan": "APSII2-12",
@@ -557,7 +558,7 @@
       "x__module__": "QGL.Channels"
     },
     "q4": {
-      "enabled": true,
+      "enabled": false,
       "frequency": -177200000.0,
       "label": "q4",
       "physChan": "APSII2-12",

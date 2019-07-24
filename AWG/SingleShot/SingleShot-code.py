@@ -1,4 +1,3 @@
 seqs =
-[[Id(q1), MEAS(M-q1, shapeFun=<function autodyne at 0x0000024B69A63AE8>)],
- [X90(q1)+X90(q1),
-  MEAS(M-q1, shapeFun=<function autodyne at 0x0000024B69A63AE8>)]]
+[[Id(q1), MEAS(M-q1, shapeFun=<function autodyne at 0x0000015D19593AE8>)],
+ [X(q1), MEAS(M-q1, shapeFun=<function autodyne at 0x0000015D19593AE8>)]]

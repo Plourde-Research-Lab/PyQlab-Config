@@ -13,6 +13,7 @@
   "instruments": {
     "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SingleShot\\SingleShot-APSII1.h5",
     "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SingleShot\\SingleShot-APSII2.h5",
+    "APSII3": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SingleShot\\SingleShot-APSII3.h5",
     "TDM": ""
   },
   "num_measurements": 2,

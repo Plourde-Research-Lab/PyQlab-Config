@@ -1,36 +1,5 @@
 {
   "channelDict": {
-    "AC": {
-      "enabled": false,
-      "frequency": -100000000.0,
-      "label": "AC",
-      "physChan": "APSII2-12",
-      "pulseParams": {
-        "amp": 0.036,
-        "cutoff": 2,
-        "dragScaling": 0,
-        "length": 1e-08,
-        "phase": -0.19589,
-        "riseFall": 2e-08,
-        "shapeFun": "tanh",
-        "sigma": 5e-09
-      },
-      "source": "q1",
-      "target": "q2",
-      "x__class__": "Edge",
-      "x__module__": "QGL.Channels"
-    },
-    "AC-gate": {
-      "enabled": false,
-      "label": "AC-gate",
-      "physChan": "APSII2-12m2",
-      "pulseParams": {
-        "length": 1e-08,
-        "shapeFun": "constant"
-      },
-      "x__class__": "LogicalMarkerChannel",
-      "x__module__": "QGL.Channels"
-    },
     "APS1-12": {
       "IChannel": "",
       "QChannel": "",
@@ -250,20 +219,20 @@
     "APSII3-12": {
       "IChannel": "",
       "QChannel": "",
-      "ampFactor": 0.9789,
-      "delay": 8.9e-08,
+      "ampFactor": 1.0,
+      "delay": 0.0,
       "enabled": true,
       "generator": "Agilent2",
       "instrument": "APSII3",
       "label": "APSII3-12",
-      "phaseSkew": 8.48,
+      "phaseSkew": 0.0,
       "samplingRate": 1200000000.0,
       "translator": "APS2Pattern",
       "x__class__": "PhysicalQuadratureChannel",
       "x__module__": "QGL.Channels"
     },
     "APSII3-12m1": {
-      "delay": 8.9e-08,
+      "delay": 0.0,
       "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
@@ -276,7 +245,7 @@
       "x__module__": "QGL.Channels"
     },
     "APSII3-12m2": {
-      "delay": 1e-08,
+      "delay": 0.0,
       "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
@@ -317,20 +286,20 @@
     "APSII4-12": {
       "IChannel": "",
       "QChannel": "",
-      "ampFactor": 1.0454,
-      "delay": 8.9e-08,
+      "ampFactor": 1.0,
+      "delay": 0.0,
       "enabled": true,
       "generator": "Agilent1",
       "instrument": "APSII4",
       "label": "APSII4-12",
-      "phaseSkew": 21.67,
+      "phaseSkew": 0.0,
       "samplingRate": 1200000000.0,
       "translator": "APS2Pattern",
       "x__class__": "PhysicalQuadratureChannel",
       "x__module__": "QGL.Channels"
     },
     "APSII4-12m1": {
-      "delay": 8.9e-08,
+      "delay": 0.0,
       "enabled": true,
       "gateBuffer": 0.0,
       "gateMinWidth": 0.0,
@@ -381,39 +350,8 @@
       "x__class__": "PhysicalMarkerChannel",
       "x__module__": "QGL.Channels"
     },
-    "CR12": {
-      "enabled": false,
-      "frequency": -100000000.0,
-      "label": "CR12",
-      "physChan": "APSII3-12",
-      "pulseParams": {
-        "amp": 0.742132185,
-        "cutoff": 2,
-        "dragScaling": 0,
-        "length": 2e-08,
-        "phase": -2.4127,
-        "riseFall": 2e-08,
-        "shapeFun": "tanh",
-        "sigma": 5e-09
-      },
-      "source": "q2",
-      "target": "q1",
-      "x__class__": "Edge",
-      "x__module__": "QGL.Channels"
-    },
-    "CR12-gate": {
-      "enabled": false,
-      "label": "CR12-gate",
-      "physChan": "APSII3-12m2",
-      "pulseParams": {
-        "length": 1e-08,
-        "shapeFun": "constant"
-      },
-      "x__class__": "LogicalMarkerChannel",
-      "x__module__": "QGL.Channels"
-    },
     "M-q1": {
-      "autodyneFreq": -10000000.0,
+      "autodyneFreq": -100000000.0,
       "enabled": true,
       "frequency": 0.0,
       "gateChan": "M-q1-gate",
@@ -442,34 +380,22 @@
       "x__class__": "LogicalMarkerChannel",
       "x__module__": "QGL.Channels"
     },
-    "M-q2": {
-      "autodyneFreq": -10000000.0,
-      "enabled": false,
+    "M-sfq1": {
+      "autodyneFreq": 0.0,
+      "enabled": true,
       "frequency": 0.0,
-      "gateChan": "M-q2-gate",
-      "label": "M-q2",
+      "label": "M-sfq1",
       "measType": "autodyne",
-      "physChan": "APS1-12",
+      "physChan": "APSII4-12",
       "pulseParams": {
         "amp": 1.0,
         "cutoff": 2,
-        "length": 5e-06,
+        "length": 1e-07,
         "shapeFun": "tanh",
-        "sigma": 1e-09
+        "sigma": 1e-08
       },
       "trigChan": "digitizerTrig",
       "x__class__": "Measurement",
-      "x__module__": "QGL.Channels"
-    },
-    "M-q2-gate": {
-      "enabled": false,
-      "label": "M-q2-gate",
-      "physChan": "APSII1-12m3",
-      "pulseParams": {
-        "length": 1e-07,
-        "shapeFun": "constant"
-      },
-      "x__class__": "LogicalMarkerChannel",
       "x__module__": "QGL.Channels"
     },
     "digitizerTrig": {
@@ -485,18 +411,18 @@
     },
     "q1": {
       "enabled": true,
-      "frequency": -100000000.0,
+      "frequency": 0.0,
       "gateChan": "q1-gate",
       "label": "q1",
-      "physChan": "APSII2-12",
+      "physChan": "APSII3-12",
       "pulseParams": {
         "cutoff": 2.0,
         "dragScaling": 0.0,
-        "length": 4e-08,
-        "pi2Amp": 0.4486403,
-        "piAmp": 0.9,
-        "shapeFun": "gaussian",
-        "sigma": 5e-09
+        "length": 2e-08,
+        "pi2Amp": 0.153,
+        "piAmp": 0.46,
+        "shapeFun": "constant",
+        "sigma": 1e-09
       },
       "x__class__": "Qubit",
       "x__module__": "QGL.Channels"
@@ -512,61 +438,16 @@
       "x__class__": "LogicalMarkerChannel",
       "x__module__": "QGL.Channels"
     },
-    "q2": {
-      "enabled": false,
-      "frequency": 170000000.0,
-      "label": "q2",
-      "physChan": "APSII4-12",
-      "pulseParams": {
-        "cutoff": 2.0,
-        "dragScaling": -1.5924099,
-        "length": 2e-08,
-        "pi2Amp": 0.4352013,
-        "piAmp": 0.851417,
-        "shapeFun": "drag",
-        "sigma": 5e-09
-      },
-      "x__class__": "Qubit",
-      "x__module__": "QGL.Channels"
-    },
-    "q2-gate": {
-      "enabled": false,
-      "label": "q2-gate",
-      "physChan": "APSII4-12m1",
-      "pulseParams": {
-        "length": 1e-07,
-        "shapeFun": "constant"
-      },
-      "x__class__": "LogicalMarkerChannel",
-      "x__module__": "QGL.Channels"
-    },
-    "q3": {
-      "enabled": false,
-      "frequency": 150000000.0,
-      "label": "q3",
+    "sfq1": {
+      "enabled": true,
+      "frequency": 0.0,
+      "label": "sfq1",
       "physChan": "APSII2-12",
       "pulseParams": {
         "cutoff": 2,
         "dragScaling": 0,
         "length": 1e-07,
-        "pi2Amp": 0.2519,
-        "piAmp": 0.5,
-        "shapeFun": "tanh",
-        "sigma": 5e-09
-      },
-      "x__class__": "Qubit",
-      "x__module__": "QGL.Channels"
-    },
-    "q4": {
-      "enabled": false,
-      "frequency": -177200000.0,
-      "label": "q4",
-      "physChan": "APSII2-12",
-      "pulseParams": {
-        "cutoff": 2,
-        "dragScaling": 0,
-        "length": 1e-07,
-        "pi2Amp": 0.2343,
+        "pi2Amp": 0.5,
         "piAmp": 1.0,
         "shapeFun": "tanh",
         "sigma": 5e-09

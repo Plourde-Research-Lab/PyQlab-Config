@@ -10,9 +10,8 @@
     }
   ],
   "instruments": {
-    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spec\\Spec-APSII1.h5",
-    "APSII2": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spec\\Spec-APSII2.h5",
-    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\Spec\\Spec-APSII4.h5",
+    "APSII1": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SFQ\\SFQ-APSII1.h5",
+    "APSII4": "Z:\\Experiments\\Rack3\\PyQlab-Config\\AWG\\SFQ\\SFQ-APSII4.h5",
     "TDM": ""
   },
   "num_measurements": 1,
